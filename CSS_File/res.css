@@ -1,0 +1,73 @@
+/* Large laptop screens */
+@media screen and (max-width: 1200px) {
+  .contme { width: 400px; margin-right: 5%; }
+  .about-text { max-width: 500px; margin: 0 auto; }
+  .about-img { margin: 0 auto; display: block; }
+  .martop { flex-wrap: wrap; justify-content: center; }
+}
+
+/* Tablets (landscape) */
+@media screen and (max-width: 992px) {
+  .contact {
+    width: 90%;
+    margin: 20px auto;
+    float: none;
+    border: none;
+    padding: 0;
+    text-align: center;
+  }
+  .header { display: none; }
+  .about-text { max-width: 400px; text-align: center; }
+  .contme { margin: 0 auto; width: 80%; border: none; }
+  .martop { display: flex; flex-wrap: wrap; justify-content: center; }
+  .ps-phbody { width: 45%; margin: 10px; }
+  .topnav { flex-direction: column; height: auto; padding: 10px; }
+  .topnav a { margin: 5px 0; }
+}
+
+/* Tablets (portrait) */
+@media screen and (max-width: 768px) {
+  .name { display: none; }
+  .header { display: block; }
+  .homepage { width: 90%; margin: 40px auto; text-align: center; float: none; }
+  .banner-img { max-width: 300px; margin: 20px auto; display: block; float: none; right: auto; }
+  .about-text, .about-img { width: 90%; margin: 15px auto; text-align: center; float: none; }
+  .contact, .contme { width: 90%; margin: 20px auto; float: none; }
+  .skill-body { width: 90%; margin: auto; display: flex; flex-wrap: wrap; justify-content: center; }
+  .skill { width: 45%; margin: 10px auto; }
+  .ps-phbody { width: 90%; margin: 15px auto; }
+  .col-25, .col-75 { width: 100%; float: none; }
+  .col-25 { margin-bottom: 5px; }
+  input[type=text], input[type=email], textarea { width: 100%; }
+  .foot_body { height: auto; padding-bottom: 20px; }
+  .foot_body_i { margin: 10px; }
+}
+
+/* Mobile screens */
+@media screen and (max-width: 576px) {
+  .homepage { width: 100%; margin-top: 60px; }
+  .banner-img { max-width: 200px; }
+  .about-text { width: 95%; }
+  .about-img { width: 80%; }
+  .contact, .contme { width: 100%; margin: 10px auto; }
+  .skill { width: 100%; margin: 8px auto; }
+  .skill-body { width: 100%; }
+  .ps-phbody { width: 100%; height: auto; }
+  .ph_h2 { font-size: 18px; }
+  .size { font-size: 30px; }
+  .size2 { font-size: 20px; }
+  .btn-st { width: auto; padding: 8px 15px; }
+  .topnav { font-size: 14px; }
+  .topnav a { padding: 8px; font-size: 14px; }
+}
+
+/* Small mobile screens */
+@media screen and (max-width: 480px) {
+  .homepage h1 { font-size: 24px; }
+  .homepage h3 { font-size: 18px; }
+  .size { font-size: 24px; }
+  .span_1 { font-size: 30px; }
+  .ps-phbody { padding: 10px; }
+  .ph_i { font-size: 30px; margin: 20px; }
+  .btn-st { font-size: 12px; padding: 6px 10px; }
+}
